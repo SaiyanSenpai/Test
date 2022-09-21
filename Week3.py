@@ -45,4 +45,35 @@ print(numbers)
 
 
 print('\n\n---Lab Challenge 5---')
-print()
+
+
+letters = ['a','b','c','d','e']
+#a) Print the list.
+print(letters)
+
+#b) Print the second to last element in the list.
+print(letters[-2])
+
+#c) reverse the list
+letters.sort(reverse=True)
+
+#d) print the list
+print(letters)
+
+#e) print the third to last element in the list.
+print(letters[-3])
+
+#f) replace the lowercase letter 'b' with uppercase letter 'B'
+letters[-2] = 'B'
+
+#g) replace the lowercase letter 'd' with uppercase letter 'D'
+letters[1] = 'D'
+
+#h) print the list.
+print(letters)
+
+#i) Alphabetically sort the list.
+letters.sort()
+
+#j) Print the list.
+print(letters)
