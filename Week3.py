@@ -18,6 +18,18 @@ print(Courses)
 print(f'I am taking {len(Courses)} courses.')
 
 print('\n\n---Lab Challenge 3---')
-Courses.sort()
 Courses.sort(reverse=True)
 print(Courses)
+
+print('\n\n---Lab Challenge 4---')
+numbers = []
+numbers.append(2)
+numbers.append(4)
+print(numbers)
+
+numbers.insert(0,0)
+numbers.insert(1,1)
+numbers.insert(2,2)
+numbers.insert(3,3)
+numbers.insert(4,4)
+print(numbers)
