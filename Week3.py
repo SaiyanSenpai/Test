@@ -45,3 +45,4 @@ print(numbers)
 
 
 print('\n\n---Lab Challenge 5---')
+print()
