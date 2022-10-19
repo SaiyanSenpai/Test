@@ -28,3 +28,6 @@ Hawaii = {'capital':'Honolulu','population':'1415872','size':'10931'}
 States = (Alaska,Hawaii)
 print(States)
 
+print("\n4")
+Car = {'Brand':'Jeep','Model':'2022 Jeep Wrangler','Color':'Green','Transmission':'Automatic'}
+print(f'{Car['Brand']} {Car['Model']}')
