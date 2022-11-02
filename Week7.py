@@ -8,7 +8,7 @@ while count<11:
 #another way
 number = 0
 while number<=50:
-    print(number, end = " ")
+    print(number, end= " ")
     number+=5
 
 
@@ -23,10 +23,16 @@ while True:
         break
     else:
         grades.append(response)
-
+#sentinel value is any value we put to break the loop
+#in this case it's -1.
     
 
 print("\n3")
+grades = [96,34,67,88,90]
+while min(grades) <=60:
+     grades.remove(min(grades))
+print(*grades,sep=" ")
+
 
 print("\n4")
 
