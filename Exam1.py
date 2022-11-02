@@ -5,7 +5,6 @@ print(sorted(names, reverse = True))
 
 print('\nQ2')
 name_list = ["Jordan", "Bird", "Bryant", "Maravich", "Ewing"]
-print(name_list)
 last_3_elements = slice(2,5)
 print(sorted(name_list[last_3_elements]))
 
