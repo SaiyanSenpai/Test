@@ -35,5 +35,18 @@ print(*grades,sep=" ")
 
 
 print("\n4")
+students = {}
+number = 0
+while number <3:
+    number = number +1
+    name = input("Enter name: ")
+    grade_1 = input("Enter grade 1: ")
+    grade_2 = input("Enter grade 2: ")
+    grade_3 = input("Enter grade 3: ")
+    students[name] = {"Grades" == {grade_1,grade_2,grade_3}}
 
+print(students)
+for student in students:
+    for grade in student["Grades"]:
+        print(*grade, sep=" ")
 print("\n5")
