@@ -9,5 +9,7 @@ print(vehicle_1.make)
 print(vehicle_2.model)
 
 print("\n2")
-
+vehicle_3 = Vehicle("Maserati","Levante")
+vehicle_4 = Vehicle("Porsche","944")
+print(vehicle_3.__init__)
 print("\n3")
