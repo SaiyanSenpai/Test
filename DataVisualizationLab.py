@@ -37,9 +37,9 @@ print("\n3)")
 # https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py
 import matplotlib.pyplot as plt
 
-x = [1,2,3,4,5]
-y = [3,9,27,81,243]
-
+x = [1,3,3,4,5]
+y = [n**3 for n in x]
+print(y)
 fix,ax = plt.subplots()
 ax.plot(x,y)                        # create a plot of x and y axis values
 ax.set_title('Powers of Three')     # set a title
