@@ -37,7 +37,7 @@ print("\n3)")
 # https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py
 import matplotlib.pyplot as plt
 
-x = [1,3,3,4,5]
+x = [1,2,3,4,5]
 y = [n**3 for n in x]
 print(y)
 fix,ax = plt.subplots()
