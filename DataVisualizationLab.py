@@ -9,6 +9,7 @@ all_packages_installed = True
 for n in ["matplotlib","pandas","plotly",'requests']:
     
     if n in installed_packages:
+        print(n+" is installed.")
         continue
     else:
         all_packages_installed = False
