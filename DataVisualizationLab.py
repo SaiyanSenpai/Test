@@ -46,3 +46,16 @@ ax.set_title('Powers of Three')     # set a title
 ax.set_xlabel('Numbers')            # name the x-axis
 ax.set_ylabel('Cubes')            # name the y-axis
 plt.show()
+
+print("\n4)")
+# https://www.w3schools.com/python/trypython.asp?filename=demo_matplotlib_pie5
+# A pie chart - parts of a whole
+import matplotlib.pyplot as plt
+import numpy as np
+
+y = np.array([28, 26, 25, 21])
+mylabels = ["John", "Paul", "George", "Ringo"]
+myexplode = [0.1, 0, 0, 0]
+
+plt.pie(y, labels = mylabels, explode = myexplode, shadow = True)
+plt.show()
