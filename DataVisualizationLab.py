@@ -24,3 +24,9 @@ else:
 
 
 print("\n2)")
+import matplotlib.pyplot as plt
+
+# a Figure is the space upon which a graph can be placed
+fig = plt.figure()                  # create an empty figure
+fig = plt.figure(figsize=(9,6))    # create an empty figure which is 9 by by 6 inches
+plt.show()       
